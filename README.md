@@ -6,6 +6,12 @@ n8n is a workflow automation platform that gives technical teams the flexibility
 
 ![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
 
+## LangChain Integration in n8n
+
+The integration of LangChain into n8n has significantly expanded its AI automation capabilities. By combining LangChain's modular framework for building language model applications with n8n’s workflow automation engine, developers can now seamlessly create complex chains of thought, retrieval-augmented generation, and decision-based flows using LLMs like OpenAI. This enables use cases like AI-powered email responders, document summarization, dynamic chatbot flows, and intelligent data extraction — all within a no-code environment. LangChain's support for tools, memory, and agents has made it easier for n8n users to build context-aware, multi-step automation powered by natural language understanding.
+
+
+
 ## Key Capabilities
 
 - **Code When You Need It**: Write JavaScript/Python, add npm packages, or use the visual interface
