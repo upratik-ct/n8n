@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
-  title: Markitdown API
+  title: n8n API
   description: A test API definition for experimenting with Redocly
   version: 1.0.0
 servers:
-  - url: https://api.markitdown.example.com
+  - url: https://api.n8n.com
 paths:
   /health:
     get:
