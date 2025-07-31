@@ -1,9 +1,3 @@
-# Sample Text
+What is Markdown?
 
 Markdown is a lightweight markup language that allows users to create formatted text using plain text syntax. Its simplicity and ease of use make it popular for writing documentation, README files, and blog posts, as it can be easily converted into HTML and other formats. Markdown uses simple symbols like asterisks for emphasis, hashes for headings, and hyphens for lists, enabling writers to focus on content without worrying about complex formatting. Its widespread adoption across platforms such as GitHub, Reddit, and various documentation tools has made Markdown an essential skill for developers, writers, and content creators alike.
-
-```
-// Some code
-Hello world!!
-```
-
