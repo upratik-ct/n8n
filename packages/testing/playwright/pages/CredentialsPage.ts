@@ -1,3 +1,7 @@
+/* The `CredentialsPage` class extends `BasePage` and provides methods for interacting with credential
+elements on a web page. */
+/* This class represents a Credentials Page that extends a Base Page and provides methods to interact
+with credential elements on the page. */
 import { BasePage } from './BasePage';
 
 export class CredentialsPage extends BasePage {
@@ -17,6 +21,9 @@ export class CredentialsPage extends BasePage {
 	 * Create a new credential of the specified type
 	 * @param credentialType - The type of credential to create (e.g. 'Notion API')
 	 */
+/* The `openNewCredentialDialogFromCredentialList` method in the `CredentialsPage` class is responsible
+for opening a new credential dialog based on the specified credential type. Here is a breakdown of
+what this method does step by step: */
 	async openNewCredentialDialogFromCredentialList(credentialType: string): Promise<void> {
 		await this.page.getByRole('combobox', { name: 'Search for app...' }).fill(credentialType);
 		await this.page
@@ -41,6 +48,8 @@ export class CredentialsPage extends BasePage {
 		await field.click();
 		await field.fill(value);
 	}
+/* The code snippet you provided contains a series of asynchronous methods within the `CredentialsPage`
+class. Here is an explanation of what each method does: */
 
 	async saveCredential() {
 		await this.clickButtonByName('Save');

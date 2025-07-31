@@ -9,6 +9,7 @@
 		"mjmlio.vscode-mjml",
 		"ryanluker.vscode-coverage-gutters",
 		"Vue.volar",
-		"vitest.explorer"
+		"vitest.explorer",
+		"mintlify.document"
 	]
 }

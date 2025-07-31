@@ -1,3 +1,7 @@
+// This JSON object defines configuration settings for a tool or process related to a frontend editor
+// UI project. Here is a breakdown of the key-value pairs within the object:
+// This part of the JSON object is defining configuration settings related to the report output for a
+// tool or process in a frontend editor UI project.
 {
 	"baseDir": "packages/frontend/editor-ui/dist",
 	"defaultCompression": "gzip",
@@ -11,6 +15,8 @@
 			}
 		]
 	],
+// The `files` and `groups` sections in the JSON object are defining specific configurations related to
+// file paths and group names for the frontend editor UI project's report output.
 	"files": [
 		{
 			"path": "*.wasm",
